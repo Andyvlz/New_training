@@ -1,0 +1,4 @@
+function largestOfFour(arr) {
+  return arr.map(Function.apply.bind(Math.max,null));
+}
+largestOfFour([[4, 5, 1, 9], [13, 27, 55, 26], [32, 35, 37, 39], [1010, 999, 857, 1]]);
