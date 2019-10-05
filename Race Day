@@ -1,0 +1,6 @@
+let raceNumber = Math.floor(Math.random() * 1000);
+const registeredEarly = true;
+const age = 19;
+registeredEarly  && age >= 18?console.log(raceNumber+=1000):console.log(raceNumber);
+registeredEarly  && age >= 18?console.log('race at 9:30 am'):console.log('race at 11:00 am');
+registeredEarly  && age < 18?console.log('race at 12:30 pm'):raceNumber;
